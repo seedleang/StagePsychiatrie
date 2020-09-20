@@ -1,1 +1,1 @@
-Contents of the task:
+The writing task consists in ten exercises.
