@@ -18,6 +18,14 @@ Au cours des passations pour cette recherche, des enfants témoins et des enfant
 Ceci est un exemple factice qui montre comment les données recueillies au sujet de la démarche, des mouvements des bras puis des mains sont analysées et interprétées.
 Lancer le Notebook .ipynb dans l'environnement défini pour un aperçu d'un examen complet.
 
+**Description des fichiers**  
+*moves.py* contient la fonction globale, analyseThis(), et une introduction au projet. moves.py appelle  
+> *utils.py*, qui contient, résume et explique les diverses grandes étapes entreprises au cours d'une analyse. utils.py appelle  
+>> *micro.py*, qui contient toutes les fonctions "petites mains" plus ou moins complexes qui se chargent de rendre cette analyse possible.  
+>>> *quat.py*, *vector.py* et *rotmat.py* sont les annexes d'un petit extrait de scipy.kinematics qui permet une meilleur gestion des capteurs.  
+
+Les dossiers runway, mirror et poetry contiennent resp. les données de marche, d'imitation et d'écriture d'un enfant ici isolé et anonyme.
+
 **En savoir plus ?**  
 Les articles suivants donneront plus de contexte :  
 https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01467/full  
