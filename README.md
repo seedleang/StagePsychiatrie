@@ -3,13 +3,13 @@ Prémices d'un projet codé pour un laboratoire de recherche.
   > Hôpital Pitié-Salpêtrière, APHP, 2020 // Service de Psychiatrie de l'Enfant et de l'Adolescent  
   > sous la supervision interdisciplinaire des Drs. S. Gauthier et S. Anzalone  
 
-**Portée du code**  
+### **Portée du code**  
 Ces scripts servent à analyser des séries de mesures faites avec trois types de capteurs : des accéléromètres, une Kinect, une tablette graphique.  
 L'objectif est d'étudier les mouvements des enfants résidents de l'hôpital de jour, et de mettre au point à terme une procédure de diagnostic simple et peu fatigante pour le patient. Il s'agit d'y trouver d'éventuels micromouvements à haute fréquence pour une détection précoce de troubles du développement.  
 A travers une série de filtrages et de corrections, et une phase d'analyse fréquentielle, le code révèle ces micromouvements invisibles pour l'oeil humain.  
 Le projet n'en est qu'à ses débuts et le code sera modifié par les intervenants suivants.
 
-**Mode d'emploi**  
+### **Mode d'emploi**  
 Au cours des passations pour cette recherche, des enfants témoins et des enfants du service s'essaient à trois exercices :  
 - un exercice de marche (environ 2 minutes, trois allers-retours définis par un repère),  
 - un exercice d'imitation (environ 6 minutes, sur l'exemple d'un "Funambule" animé qui apparaît à l'écran),  
@@ -18,7 +18,7 @@ Au cours des passations pour cette recherche, des enfants témoins et des enfant
 Ceci est un exemple factice qui montre comment les données recueillies au sujet de la démarche, des mouvements des bras puis des mains sont analysées et interprétées.
 Lancer le Notebook .ipynb dans l'environnement défini pour un aperçu d'un examen complet.
 
-**Description des fichiers**  
+### **Description des fichiers**  
 *moves.py* contient la fonction globale, analyseThis(), et une introduction au projet. moves.py appelle  
 > *utils.py*, qui contient, résume et explique les diverses grandes étapes entreprises au cours d'une analyse. utils.py appelle  
 >> *micro.py*, qui contient toutes les fonctions "petites mains" plus ou moins complexes qui se chargent de rendre cette analyse possible.  
@@ -26,7 +26,7 @@ Lancer le Notebook .ipynb dans l'environnement défini pour un aperçu d'un exam
 
 Les dossiers runway, mirror et poetry contiennent resp. les données de marche, d'imitation et d'écriture d'un enfant ici isolé et anonyme.
 
-**En savoir plus ?**  
+### **En savoir plus ?**  
 Les articles suivants donneront plus de contexte :  
 https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01467/full  
 https://www.sciencedirect.com/science/article/pii/S0013700618301891  
@@ -34,7 +34,7 @@ https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00676/full
 
 *******************************************************************
 
-**ENGLISH VERSION**
+### **ENGLISH VERSION**
 
   > Hôpital Pitié-Salpêtrière, APHP, 2020 // Service de Psychiatrie de l'Enfant et de l'Adolescent  
   > under supervision from Soizic Gauthier, PhD, and Salvatore Anzalone, PhD
