@@ -48,7 +48,7 @@ Each child would undergo three tests, including
 All the data about the legs, the arms and the handwriting shall be processed using the Notebook attached.  
 DISCLAIMER : this is a toy example. No actual data will be published for the sake of privacy.  
 
-Find out more at 
+Find out more at  
 https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01467/full  
 https://www.sciencedirect.com/science/article/pii/S0013700618301891  
 https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00676/full
